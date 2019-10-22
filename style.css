@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Service Section Start*/
+.gray-bg{
+	background: #fafafa;
+}
+.service-bg-1{background: url(img/section-bg-1.jpg);}
+.service-bg-2{background: url(img/section-bg-2.jpg);}
+.service-bg-3{background: url(img/section-bg-3.jpg);}
+.service-bg-4{background: url(img/section-bg-4.jpg);}
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title h3 {
+  font-size: 25px;
+  color: #333;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+.single-service-item {
+  background: #fff;
+  transition: .2s;
+}
+.service-bg {
+  height: 225px;
+  background-position: center;
+  background-size: cover;
+  background-color: #ddd;
+}
+.service-content {
+  padding: 20px;
+}
+.service-content p {
+	text-align: justify;
+}
+body {
+  color: #9c9c9c;
+}
+.service-content h3 {
+  color: #333;
+}
+.service-more-btn {
+  display: inline-block;
+  text-transform: capitalize;
+  color: #39ca74;
+  padding: 10px 0px;
+  border-radius: 50px;
+  margin-top: 5px;
+  font-weight: 700;
+  transition: .3s;
+}
+.service-more-btn i.fas {
+  padding-left: 5px;
+}
+.service-more-btn:hover {
+  background: #39ca74;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.single-service-item:hover {
+  box-shadow: 0 0 21px #eaf7ef;
+}
+/*Service Section Stop*/
